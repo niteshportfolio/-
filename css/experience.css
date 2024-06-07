@@ -1,0 +1,675 @@
+@import url('https://fonts.googleapis.com/css?family=poppins:400,500,600,700&display=swap');
+
+*{
+    
+    padding: 0rem;
+    margin: 0rem;
+    box-sizing: border-box;
+  
+}
+html{
+    font-size: 62.5%;
+}
+nav{
+    height: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .5rem 5rem 0rem 5rem;
+    z-index: 1000;
+    position: sticky;
+    top: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1.6rem;  
+    background-color: #000000;
+}
+.navcolor{
+    background-color: #000000;
+}
+
+
+
+nav ul{
+    display: flex;
+    list-style: none;
+}
+
+
+nav ul li a:hover{
+    color: cyan;
+    border-radius: .5rem;
+    box-shadow: 0 0 .5rem #33ffff, 0 0 .5rem #66ffff;
+}             
+
+nav ul li a{
+    text-decoration: none;
+    padding: 1rem 1.5rem;
+    color: #ffffff;
+}
+nav ul li{
+    margin: 0rem 3rem;
+    position: relative;
+}
+nav .menu-btn i{
+    cursor: pointer;
+    display: none;
+    color: #ffffff;
+}
+#click{
+    display: none;
+}
+
+a:hover{
+
+    color: #0070c0;
+}
+.active, .btn:hover {
+    color: cyan;
+    border-radius: .5rem;
+    box-shadow: 0 0 .5rem #33ffff, 0 0 .5rem #66ffff;
+  } 
+
+
+
+
+
+.box2{
+    width: 100%;
+    height: 80vh;
+    background-image: url(../images/experience.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  
+   
+    
+    
+    
+}
+   
+.dropdown{
+    display: none;
+}
+
+nav ul li:hover .dropdown{
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 160%;
+  border-radius: 1rem;
+  box-shadow: 0 0 .5rem #33ffff, 0 0 .5rem #66ffff;
+    background-color: #000000;
+   
+}
+.dropdown ul{
+    display: block;
+    margin: 1rem;
+    
+    
+}
+.dropdown ul li{
+    width: 15rem;
+    padding: 1.5rem .5rem;
+    
+   
+}
+
+
+.box32{
+    width: 100%;
+    height: auto;
+    background-image: url(../images/15.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+   margin-top: 5rem;
+   color: #ffffff;
+
+}
+
+
+
+
+
+
+
+.box32 .box31{
+    padding: 4rem;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  transition: all 3s ease;
+ 
+ 
+}
+
+
+
+.box32 .box31 .a{
+    width: auto;
+    height: 35rem;
+    flex: 1 1 35rem;
+    margin: 1rem;
+    background-image: url(../images/nittu.png);
+    background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+   
+    
+}
+.box32 .box31 .b{
+    width: auto;
+    height: 35rem;
+    flex: 1 1 35rem;
+    margin: 1rem;
+    padding: 2rem 1.5rem;
+
+}
+.box32 .box31 .b p{
+    margin-top: 1rem;
+    font-size: 1.6rem;
+    color: #9d9d9d;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+.box32 .box31 .b h3{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 1.5rem;
+    color: rgb(255, 255, 255);
+}
+.box32 .box31 .b h1{
+    margin-top: 1rem;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 5rem;
+}
+.box32 .box31 .b h2{
+    margin-top: 1rem;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+}
+.box32 .box31 .b h3{
+    margin-top: .5rem;
+    color: #9d9d9d;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+   
+}
+
+
+    
+
+.box32 .box31 .b button{
+    width: 20rem;
+    padding: 1rem 0;
+    text-align: center;
+    border-radius: 2.5rem;
+    font-weight: bold;
+    border: .2rem solid #009688;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    margin: 3rem;
+    margin-left: 65%;
+    position: relative;
+    overflow: hidden;
+}
+.box32 .box31 .b button:hover{
+    background: #000000;
+    color: cyan;
+    box-shadow: 0 0 .5rem #33ffff, 0 0 .5rem #66ffff;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.box3{
+    width: 100%;
+    height: auto;
+    background-image: url(../images/11.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    padding: 5rem 0rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+}
+.box3 .b3{
+    width: 100%;
+    height: auto;
+  color: #ffffff;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0rem 10rem 0rem 10rem;
+    
+}
+.box3 .b3 button{
+    width: 20rem;
+    padding: 1rem 0;
+    text-align: center;
+    border-radius: 2.5rem;
+    font-weight: bold;
+    border: .2rem solid #009688;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 3rem;
+    
+    position: relative;
+    overflow: hidden;
+}
+.box3 .b3 button:hover{
+    background: #000000;
+    color: cyan;
+    box-shadow: 0 0 .5rem #33ffff, 0 0 .5rem #66ffff;
+    
+}
+.box3 .b3 h1{
+    font-size: 3rem;
+}
+.box4 .b3 h1{
+    font-size: 3rem;
+}
+.box5 .b3 h1{
+    font-size: 3rem;
+}
+.box3 .b3 h3{
+    font-style: italic;
+    margin-top: 1rem;
+    color: #ababab;
+    font-size: 1.6rem;
+}
+.box3 .b3 p{
+    margin-top: 1rem;
+    color: #ababab;
+    font-size: 1.4rem;
+}
+
+.box3 .b3 p b a{
+   
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+
+
+.box4{
+    width: 100%;
+    height: auto;
+    background-image: url(../images/11.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    padding: 5rem 0rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+}
+.box4 .b3{
+    width: 100%;
+    height: auto;
+  color: #ffffff;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0rem 10rem 0rem 10rem;
+    
+}
+.box4 .b3 button{
+    width: 20rem;
+    padding: 1rem 0;
+    text-align: center;
+    border-radius: 2.5rem;
+    font-weight: bold;
+    border: .2rem solid #009688;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 3rem;
+    
+    position: relative;
+    overflow: hidden;
+}
+.box4 .b3 button:hover{
+    background: #000000;
+    color: cyan;
+    box-shadow: 0 0 .5rem #33ffff, 0 0 .5rem #66ffff;
+    
+}
+
+.box4 .b3 h3{
+    font-style: italic;
+    margin-top: 1rem;
+    color: #ababab;
+    font-size: 1.6rem;
+}
+.box4 .b3 p{
+    margin-top: 1rem;
+    color: #ababab;
+    font-size: 1.4rem;
+}
+.box4 .b3 p b a{
+   
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+.box5{
+    width: 100%;
+    height: auto;
+    background-image: url(../images/11.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    padding: 5rem 0rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+}
+.box5 .b3{
+    width: 100%;
+    height: auto;
+  color: #ffffff;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0rem 10rem 0rem 10rem;
+    
+}
+.box5 .b3 button{
+    width: 20rem;
+    padding: 1rem 0;
+    text-align: center;
+    border-radius: 2.5rem;
+    font-weight: bold;
+    border: .2rem solid #009688;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 3rem;
+    
+    position: relative;
+    overflow: hidden;
+}
+.box5 .b3 button:hover{
+    background: #000000;
+    color: cyan;
+    box-shadow: 0 0 .5rem #33ffff, 0 0 .5rem #66ffff;
+    
+}
+
+.box5 .b3 h3{
+    font-style: italic;
+    margin-top: 1rem;
+    color: #ababab;
+    font-size: 1.6rem;
+}
+.box5 .b3 p{
+    margin-top: 1rem;
+    color: #ababab;
+    font-size: 1.4rem;
+}
+.box5 .b3 p b a{
+   
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+footer .b23{
+    width: 100%;
+    height: auto;
+  color: #ffffff;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0rem 10rem 0rem 10rem;
+    
+}
+footer .b23 .b24{
+    width: 8rem;
+    height: 8rem;
+    background-color: #ffffff;
+    border-radius: 50%;
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+   
+    
+}
+
+footer .b23 h3{
+    font-style: italic;
+    margin-top: .5rem;
+}
+footer .b23 h3 a{
+   text-decoration: none;
+   color: #fff;
+}
+footer .b23 p{
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+footer .b23 h5{
+   
+    font-size: 1.2rem;
+}
+
+footer .b23 .b24{
+    background-image: url(../images/fot.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer ul{
+    display: flex;
+    list-style: none;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+footer ul li{
+    margin: 1.5rem;
+}
+footer ul li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+footer ul li a i{
+    font-size: 3rem;
+}
+footer h5{
+    margin-top: 1rem;
+    color: #888888;
+}
+
+footer{
+    width: 100%;
+    height: auto;
+    background-image: url(../images/14.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    margin-top: 5rem;
+   color: #ffffff;
+   padding-top: 5rem;
+   padding-bottom: 5rem;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 998px){
+
+    html{
+        font-size: 55%;
+    }
+
+}    
+@media screen and (max-width: 768px){
+
+html{
+    font-size: 45%;
+}
+
+}
+
+    
+
+
+@media screen and (max-width: 922px){
+
+    nav{
+        padding: 0rem 2rem 0rem 1rem;
+    }
+    nav ul{
+        position: fixed;
+        top: 8rem;
+        left: -100%;
+        height: auto;
+        width: 100%;
+        display: block;
+        text-align: center;
+        background: #111;
+        transition: all 0.3s ease;
+       
+    }
+    
+    #click:checked ~ ul{
+        left: 0%;
+    }
+    #click:checked ~ .menu-btn i:before{
+        content: "\f00d";
+    }
+    
+    nav ul li{
+        margin: 2rem 0rem;
+    }
+    nav ul li a{
+       
+        display: block;
+        color: white;
+    }
+    nav ul li a:hover{
+        color: cyan;
+        
+    }
+    nav .menu-btn i{
+        cursor: pointer;
+        display: block;
+    }
+
+    .dropdown ul{
+        display: block;
+        margin-left: 66rem;
+        margin-top: 18rem;
+        box-shadow: 0 0 .5rem #33ffff, 0 0 .5rem #66ffff;
+        background-color: #000000;
+        border-radius: 1rem;
+        text-align: center;  
+        z-index: 1111; 
+        width: 25rem;
+    }
+    .dropdown ul li{
+        width: 15rem;
+        margin-left: 5rem;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: .1rem;
+    }
+    .box32{
+        width: 100%;
+        height: auto;
+    }
+
+
+
+    
+    
+
+    .box2{
+        width: 100%;
+        height: 25rem;
+     }
+   
+    footer a{
+        font-size: 1.2rem;
+       
+    }
+ 
+
+   
+}
+
+@media screen and (max-width: 1920px){
+
+    nav{
+        padding: 0rem 2rem 0rem 1rem;
+    }
+ 
+    
+
+
+}
+@media screen and (max-width: 1070px){
+
+    .box32 .box31 .b{
+        text-align: center;
+        overflow: hidden;
+       
+    }
+    .box32 .box31 .b button{
+        margin: 0rem;
+        margin-top: 3rem;
+    }
+ 
+    
+
+
+}
